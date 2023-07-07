@@ -1,4 +1,6 @@
 <script>
+	import Convert from './Convert.svelte';
+
 	let a = 3;
 
 	function inc() {
@@ -33,6 +35,8 @@ vaisakh {a}
 </table>
 
 <button on:click={inc}> {a} </button>
+
+<Convert />
 
 <style>
 	table,
